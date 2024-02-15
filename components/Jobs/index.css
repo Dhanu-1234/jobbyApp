@@ -1,0 +1,76 @@
+.jobs-bg-container {
+  background-color: #000000;
+  height: 100vh;
+  width: 100vw;
+}
+
+.jobs-content-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.jobs-filters-profile-container {
+  width: 24%;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.jobs-search-job-list-container {
+  width: 70%;
+}
+
+.jobs-profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  height: 196px;
+  width: 224px;
+  padding-left: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.jobs-profile-img-styles {
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+
+.jobs-profile-heading {
+  color: #6366f1;
+  font-family: 'Roboto';
+  margin: 5px;
+}
+
+.jobs-profile-bio {
+  color: #2c364c;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin: 5px;
+}
+
+.jobs-line-styles {
+  width: 70%;
+  border-width: 1px;
+  border-color: #cbd5e1;
+}
+
+.jobs-employment-container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.jobs-employment-heading {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
